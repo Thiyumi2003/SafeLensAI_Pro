@@ -22,7 +22,7 @@ import { Administration } from './pages/admin/Administration';
 export function App() {
   return (
     <AppProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/SafeLensAI_Pro">
         <Routes>
           <Route path="/" element={<Login />} />
 
